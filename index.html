@@ -1,0 +1,98 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game Tahu Gejrot Pakde Burung</title>
+
+    <meta name="description" content="Mainkan Game Tahu Gejrot Pakde Burung. Tangkap tahu gejrot, hindari cabai busuk, dan raih skor tertinggi!">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-container">
+
+    <!-- HEADER -->
+    <header class="header">
+        <h1>🥣 Tahu Gejrot Pakde Burung</h1>
+        <p>Tangkap Tahu Gejrot • Hindari Cabai Busuk 🌶️</p>
+    </header>
+
+    <!-- MENU -->
+    <section id="menu" class="menu-screen">
+
+        <img src="assets/logo.png"
+             alt="Logo Tahu Gejrot"
+             class="logo">
+
+        <h2>Selamat Datang</h2>
+
+        <p>
+            Gerakkan keranjang untuk menangkap tahu gejrot.
+            Setiap tahu bernilai <strong>10 poin</strong>.
+            Hindari cabai busuk karena akan mengurangi nyawa.
+        </p>
+
+        <button id="startBtn">
+            ▶ Mulai Bermain
+        </button>
+
+    </section>
+
+    <!-- HUD -->
+    <section id="hud" class="hud hidden">
+
+        <div class="score">
+            Skor :
+            <span id="score">0</span>
+        </div>
+
+        <div class="life">
+            Nyawa :
+            <span id="life">3</span>
+        </div>
+
+        <div class="highscore">
+            High Score :
+            <span id="highScore">0</span>
+        </div>
+
+    </section>
+
+    <!-- GAME -->
+    <section class="game-area">
+
+        <canvas id="gameCanvas"
+                width="420"
+                height="700">
+        </canvas>
+
+    </section>
+
+    <!-- GAME OVER -->
+    <section id="gameOver"
+             class="game-over hidden">
+
+        <h2>Game Over 😢</h2>
+
+        <p>
+            Skor Akhir :
+            <span id="finalScore">0</span>
+        </p>
+
+        <button id="restartBtn">
+            🔄 Main Lagi
+        </button>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
