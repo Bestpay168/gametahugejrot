@@ -1,20 +1,4 @@
 
-/* ==========================================
-   GAME TAHU GEJROT PAKDE BURUNG
-   script.js
-   BAGIAN 1
-========================================== */
-
-const canvas = document.getElementById("gameCanvas");
-const ctx = canvas.getContext("2d");
-
-/* MENU */
-const menu = document.getElementById("menu");
-const hud = document.getElementById("hud");
-const gameOver = document.getElementById("gameOver");
-
-const startBtn = document.getElementById("startBtn");
-const restartBtn = document.getElementById("restartBtn");
 
 /* SCORE */
 const scoreText = document.getElementById("score");
@@ -22,33 +6,6 @@ const lifeText = document.getElementById("life");
 const highScoreText = document.getElementById("highScore");
 const finalScore = document.getElementById("finalScore");
 
-/* CANVAS */
-<canvas id="gameCanvas"></canvas>
-
-/* GAME DATA */
-
-let score = 0;
-let life = 3;
-let level = 1;
-
-let running = false;
-
-let foods = [];
-let bombs = [];
-
-/* HIGH SCORE */
-
-let highScore =
-Number(localStorage.getItem("pakde_highscore")) || 0;
-
-highScoreText.textContent = highScore;
-
-/* PLAYER */
-
-const player = {
-
-    width:90,
-    height:35,
 
     x:canvas.width/2-45,
 
@@ -60,7 +17,6 @@ const player = {
 
 };
 
-/* DRAW PLAYER */
 
 /* ==========================================
    GAME TAHU GEJROT PAKDE BURUNG
