@@ -699,3 +699,14 @@ updateHUD();
 
 gameLoop();
 ```
+
+
+
+const tahuImg = new Image();
+tahuImg.src = "tahu.svg";
+
+const basketImg = new Image();
+basketImg.src = "kotak-coklat.svg";
+
+const logoImg = new Image();
+logoImg.src = "tahu-gejrot.svg";
