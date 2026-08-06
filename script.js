@@ -23,8 +23,7 @@ const highScoreText = document.getElementById("highScore");
 const finalScore = document.getElementById("finalScore");
 
 /* CANVAS */
-canvas.width = 420;
-canvas.height = 700;
+<canvas id="gameCanvas"></canvas>
 
 /* GAME DATA */
 
@@ -87,9 +86,7 @@ const highScoreText = document.getElementById("highScore");
 const finalScore = document.getElementById("finalScore");
 
 /* CANVAS */
-canvas.width = 420;
-canvas.height = auto;
-
+<canvas id="gameCanvas"></canvas>
 /* GAME DATA */
 
 let score = 0;
