@@ -706,7 +706,7 @@ const tahuImg = new Image();
 tahuImg.src = "tahu.svg";
 
 const basketImg = new Image();
-basketImg.src = "kotak-coklat.svg";
+basketImg.src = "kotak.svg";
 
 const logoImg = new Image();
 logoImg.src = "tahu-gejrot.svg";
