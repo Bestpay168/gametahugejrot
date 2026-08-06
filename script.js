@@ -1,4 +1,4 @@
-```javascript
+
 /* ==========================================
    GAME TAHU GEJROT PAKDE BURUNG
    script.js
@@ -698,7 +698,6 @@ updateHUD();
 ------------------------- */
 
 gameLoop();
-```
 
 
 
