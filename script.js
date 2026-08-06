@@ -88,7 +88,7 @@ const finalScore = document.getElementById("finalScore");
 
 /* CANVAS */
 canvas.width = 420;
-canvas.height = 700;
+canvas.height = auto;
 
 /* GAME DATA */
 
