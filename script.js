@@ -72,7 +72,7 @@ function drawPlayer(){
 
      if (ctx.roundRect) {
     ctx.beginPath();
-    ctx.roundRect(...);
+    ctx.roundRect();
     ctx.fill();
 
  ctx.roundRect(
@@ -589,9 +589,7 @@ setInterval(()=>{
 
     }
 
-},1700);
-```
-```javascript id="u3y5kq"
+}
 /* ==========================================
    GAME TAHU GEJROT PAKDE BURUNG
    script.js
@@ -957,8 +955,7 @@ function updatePlayer(){
     }
 
 }
-```
-```javascript
+javascript
 /* ==========================================
    GAME TAHU GEJROT PAKDE BURUNG
    script.js
@@ -1219,8 +1216,7 @@ setInterval(()=>{
     }
 
 },1700);
-```
-```javascript id="u3y5kq"
+
 /* ==========================================
    GAME TAHU GEJROT PAKDE BURUNG
    script.js
