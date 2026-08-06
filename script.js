@@ -1,21 +1,5 @@
 
 
-/* SCORE */
-const scoreText = document.getElementById("score");
-const lifeText = document.getElementById("life");
-const highScoreText = document.getElementById("highScore");
-const finalScore = document.getElementById("finalScore");
-
-
-    x:canvas.width/2-45,
-
-    y:canvas.height-60,
-
-    speed:8,
-
-    color:"#ff7a00"
-
-};
 
 
 /* ==========================================
