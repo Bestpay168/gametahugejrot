@@ -69,7 +69,12 @@ function drawPlayer(){
 
     ctx.beginPath();
 
-    ctx.roundRect(
+     if (ctx.roundRect) {
+    ctx.beginPath();
+    ctx.roundRect(...);
+    ctx.fill();
+
+ ctx.roundRect(
         player.x,
         player.y,
         player.width,
