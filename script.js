@@ -709,4 +709,4 @@ const basketImg = new Image();
 basketImg.src = "kotak.svg";
 
 const logoImg = new Image();
-logoImg.src = "tahu-gejrot.svg";
+logoImg.src = "logo.png";
